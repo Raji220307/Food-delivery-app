@@ -19,6 +19,9 @@
       .text-black {
         color: #000;
       }
+       .hero-image img {
+      max-width: 100%;
+    }
     
     </style>
   </head>
@@ -28,7 +31,10 @@
     <div
       class="container-fluid p-3 d-flex justify-content-between align-items-center bg-light text-black"
     >
-      <img src="./assets//logo.png" class="w-3" alt="">
+      <div class="d-flex">
+      <img src="./assets/logo.png" width="28px" height="30px" alt="">
+      <h1 class="text-danger fs-4 ps-3">Food <span class="text-warning">Wegan</span></h1>
+      </div>
       <div>
         <span class="mx-2">Home</span>
         <span class="mx-2">Services</span>
@@ -36,6 +42,35 @@
         <span class="mx-2">Info</span>
       </div>
     </div>
+    <section class="bg-warning text-light p-5">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6 text-center text-lg-start">
+          <h1 class="fw-bold display-5">Are you starving?</h1>
+          <p class="text-dark">Within a few clicks, find meals that are accessible near you</p>
+          
+          <div class="mt-4 bg-light rounded-2">
+            <div class="d-flex mb-3">
+              <button class="btn mt-2 ms-2 me-2 bg-danger  text-danger" style="--bs-bg-opacity: .1;"><i class="bi bi-truck"></i> 🚚 Delivery</button>
+              <button class="btn text-muted "><i class="bi bi-bag"></i> 🛍️ Pickup</button>
+            </div>
+            <div class="input-group">
+              
+              <input type="text" class="form-control m-3" placeholder="Enter Your Address">
+              <button class="btn bg-danger text-light m-2 " style="--bs-bg-opacity:.9;">🔍 Find Food</button>
+            </div>
+            </div>
+        </div>
+      
+ <div class="col-lg-6 position-relative d-flex justify-content-center" style="min-height: 300px;">
+        <img src="assets/Image Base.png" alt="noodles"
+             class="position-absolute bottom-0 img-fluid" style="max-height: 100%; height: auto;">
+      </div>
+
+
+      </div>
+    </div>
+  </section>
     <br />
    <div class="container-fluid mt-4">
   <div class="row">
